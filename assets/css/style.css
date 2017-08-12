@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../images/black.jpeg");
+	margin: 0;
+	padding: 0;
+}
+
+/* GLobal */
+.container {
+	margin-left: 25px;
+
+
+}
+
+#main-title {
+	background-color: #D5D5D5;
+	color: #B10707;
+	font-size: 20px;
+	text-align: center;
+	width: 30%;
+
+	
+}
+
+#guide {
+	background-color: #D5B90D;
+	width: 40%;
+	font-size: 18px;
+	color: #42535A;
+	padding: 1px 8px 2px 10px;
+	margin-bottom: 15px;
+}
+
+#random {
+	background-color: #DCC8DA;
+	height: 107px;
+	width: 320px;
+	font-size: 27px;
+	color: #278D95;
+	padding-left: 10px;
+	float: left;
+}
+
+#random h2 {
+	margin-top: 5px;
+}
+
+#winloss {
+	background-color: #4C69B2;
+	font-size: 20px;
+	color: #F7F119;
+	width: 10%;
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	padding-left: 5px;
+}
+
+
+#score {
+	background-color: #1DAE2D;
+	display: inline-block;
+	width: 202px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+
+#score h2 {
+	color: #525D3D;
+	margin-top: 5px;
+}
+
+
+#crystals {
+	margin-top: 60px;
+	width: 800px;
+	border: 2px groove #F07400;
+}
+
+.image-crystal {
+	height: 200px;
+	width: 150px;
+	margin: 20px;
+}
+
+.value-colors {
+	width: 65%;
+	height: 50px;
+}
+
+
+#value-blue {
+	background-color: #05AAF7; opacity: .7;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 60px;
+	margin-top: 0;
+	width: 50px;
+	text-align: center;
+
+}
+
+#value-yellow {
+	background-color: #E1DE00; opacity: .7;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 150px;
+	width: 50px;
+	text-align: center;
+
+}
+
+#value-red {
+	background-color: #FF3030; opacity: .7;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 130px;
+	width: 50px;
+	text-align: center;
+}
+
+#value-green {
+	background-color: #6BD100; opacity: .7;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 150px;
+	width: 50px;
+	text-align: center;
+}
+
+
+

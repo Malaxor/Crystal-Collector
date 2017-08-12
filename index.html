@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Crystal Collector</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js" ></script>
+	<link href="assets/css/resets.css" rel="resetsheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class = "container">
+
+	<div id = "main-title"> 
+		<h1>Crystals Collector</h1>
+	</div><!-- END "main-title" END -->
+
+	<div id = "guide">
+		<p>Next to "Catch me:", a random number will be displayed at the start of every new game.</p>
+		<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to you total score.</p>
+		<p>You win by matching your total score to the random number; you lose if your total score surpasses the random number.</p>
+		<p>The value (points) of each crystal is hidden from you until you click on a crystal.</p>
+		<p>At the start of every new game, each crystal will be alloted a new random value (points).</p>
+	</div><!-- END "guide" END -->
+
+	<div id = "random">
+		<h2></h2>
+	</div><!-- END "random" END -->
+
+	<div id = "winloss">
+		<p id = "wins"></p>
+		<p id = "losses"></p>
+	</div><!-- END "random" END -->
+
+	<div id = "score">
+		<h2></h2>
+	</div><!-- END "score" END -->
+
+	<div id = "crystals">
+		<img id = "blue" class = "image-crystal" src="assets/images/blue.jpg">
+		<img id = "yellow" class = "image-crystal" src="assets/images/yellow.jpg">
+		<img id = "red" class = "image-crystal" src="assets/images/red.jpg">
+		<img id = "green" class = "image-crystal" src="assets/images/green.jpg">
+	</div><!-- END "crystals" END -->
+
+	
+		<h3 id = "value-blue"></h3>
+		<h3 id = "value-yellow"></h3>
+		<h3 id = "value-red"></h3>
+		<h3 id = "value-green"></h3>
+	
+	
+
+</div><!-- END "container" END -->
+
+</body>
+</html>
